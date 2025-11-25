@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Java Script</h1>
+    <p id="demo"></p>
+
+    <script>
+        const person = {
+            fname: "Zannatul",
+            lname: "Farzana",
+            age: 22,
+            hobbies: ["coding", "drawing", "watching movies"],
+            address: {
+                street: "272/1/1",
+                city: "Dhaka",
+                district: "Dhaka"
+            }
+        }
+        console.log(person.lname+" "+person.fname);
+
+        var info = person.fname + " " + person.lname;
+        document.getElementById("demo").innerHTML = info;
+    </script>
+</body>
+
+</html>

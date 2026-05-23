@@ -19,6 +19,15 @@
 /x64/
 /x86/
 
+# Node.js
+node_modules/
+.env
+package-lock.json
+
+# Distribution folders
+dist/
+coverage/
+
 # VS / IDE
 *.sln
 *.vcxproj*
